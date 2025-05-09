@@ -2,7 +2,7 @@ import serial
 import time
 
 # Set program parameters - some of these may need to be changed for your specific setup
-switch_time = 0.02 #time of the switch in hours
+switch_time = 3 #time of the switch in hours
 post_switch_time = 10#time (h) from the switch to the end of the experiment
 port1 = "COM4" #This may need to be changed - check the available port numbers in Device Manager
 port2 = "COM5" #This may need to be changed - check the available port numbers in Device Manager
